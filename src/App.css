@@ -1,0 +1,116 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media print {
+  .nodate {
+    display: none !important;
+  }
+  .noprint {
+    display: none !important;
+  }
+  body {
+    font-size: 12pt;
+  }
+  .cv {
+    width: auto;
+  }
+}
+
+.cv {
+  max-width: 1200px; /* screen only */
+  margin: auto;
+}
+
+.imager {
+  max-width: 100%;
+  height: auto;
+}
+
+@page {
+  size: A4;
+  margin: 20mm;
+}
+
+@media (max-width: 1200px) {
+  .title {
+    font-size: larger;
+  }
+  .imager {
+    width: 40%;
+  }
+  .content {
+    background-color: #f4f4f7;
+  }
+}
+
+@media (max-width: 992) {
+  .title {
+    font-size: large;
+  }
+  .imager {
+    width: 35%;
+  }
+  .content {
+    background-color: #6b4297;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: medium;
+  }
+  .bodyfemale {
+    font-size: xx-small;
+  }
+  .imager {
+    width: 30%;
+  }
+  .content {
+    background-color: #f4f4f7;
+  }
+}
+
+@media (max-width: 576px) {
+  .title {
+    font-size: smaller;
+  }
+  .bodyfemale {
+    font-size: xx-small;
+  }
+  .imager {
+    width: 20%;
+  }
+  .firstborder {
+    margin-left: 40;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 0vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
