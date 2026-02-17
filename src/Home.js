@@ -9,7 +9,7 @@ const Home = () => {
  
   return (
     <div>
-      <Col align="center" style={{ marginTop: 50, marginBottom: 50 }}>Welcome to My CV Applicationq</Col>
+      <Col align="center" style={{ marginTop: 50, marginBottom: 50 }}>Welcome to My CV Applicationq5</Col>
       <div class="btn-group-flex-wrap" role="group" aria-label="Responsive button group"
       >
 
