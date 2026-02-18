@@ -71,9 +71,9 @@ const PBclean = () => {
                     </Row>
                     <Row>
                         {date ? <Col align="center">{date}</Col> : ""}</Row><hr></hr>
+ <Col className="noprint"><a href={`mailto:${email}`} style={{ textDecoration: 'none', color: 'black' }}>Click for email</a></Col>
 
-                    <Col className="noprint"><a href={`mailto:${email}`} style={{ textDecoration: 'none', color: 'black' }}>Click for email</a></Col>
-
+                   
                     <Row>
                         <Col align="left" style={{ marginTop: 0, marginLeft: 150, marginBottom: 0 }}>
                             Födelseår: 1970-12-18<br></br>

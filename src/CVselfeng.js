@@ -18,7 +18,7 @@ const CVselfeng = () => {
     return (
         <div className='cv' >
             <Container style={{ maxWidth: 1200 }}>
-                <Col className='bodyfemale' style={{ width: '100%', marginLeft: -0, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                <Col style={{ width: '100%', marginLeft: -0, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                     <Col>
                         <Card style={{ width: 600, height: 1600, border: "none" }}>
                             <Row>

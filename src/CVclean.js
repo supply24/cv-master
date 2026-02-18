@@ -18,19 +18,19 @@ const CVclean = () => {
     return (
         <div className='cv' >
             <Container style={{ maxWidth: 1200 }}>
-                <Col className='bodyfemale' style={{ width: '100%', marginLeft: -0, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                <Col style={{ width: '100%', marginLeft: -0, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                     <Col>
                         <Card style={{ width: 600, height: 1600, border: "none" }}>
                             <Row>
-                                <Col className='noprint' align="right" style={{ marginRight: 300 }} >
+                                <Col className='noprint' align="left" style={{ marginLeft: 300 }} >
                                     <Button size="sm" variant="danger" onClick={handlePrint} >Print Storage CV</Button>
                                 </Col></Row>
 
                             <Row>         <Col style={{ marginTop: 20, marginLeft: 160 }} align="left" >     <img src={torb1} className='imager' alt="Tobias Mautner" style={{ marginBottom: 0, borderRadius: '50%' }} />
                                 <Card.Title className="title" style={{ color: 'black', marginLeft: 10 }}>CV- Tobias Mautner</Card.Title>
                             </Col> </Row><hr></hr>
-                            <Col className='1stborder' style={{ marginLeft: 50 }}>  <Card.Body >
-                                <Col align="left" style={{ marginLeft: 30, marginTop: 0 }} >
+                            <Col className='1stborder' style={{ marginLeft: 0 }}>  <Card.Body >
+                                <Col align="left" style={{ marginLeft: 10, marginTop: 0 }} >
                                     <b>Allmänt</b><br></br>
                                     Födelseår: 1970-12-18<br></br>
                                     Adress: Majorna, Göteborg<br></br>
