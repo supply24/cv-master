@@ -26,10 +26,10 @@ const CVkitchen = () => {
             <Container style={{ maxWidth: 400 }}>
                 <Col style={{ width: '100%'}}>
                     <Col>
-                        <Card style={{ width: 350,  border: "none" , border: "2px solid red" }}>
+                        <Card style={{ width: 350,  border: "none" }}>
                             <Row style={{marginTop:10}}>
 
-                                  <Col className='noprint' align="left" style={{ marginLeft: 300 }} >
+                                  <Col className='noprint' align="left"  >
                                     <Button size="sm" variant="danger" onClick={handlePrint} >Print Storage CV</Button>
                                 </Col>
                             
