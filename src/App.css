@@ -17,9 +17,7 @@
   .cv {
     width: auto;
   }
-   .cv2 {
-    width: 600;
-  }
+
 }
 
 .cv {
@@ -27,14 +25,10 @@
   margin: auto;
 }
 
-.imager {
-  max-width: 100%;
-  height: auto;
-}
 
 @page {
   size: A4;
-  margin: 20mm;
+  margin: 0mm;
 }
 
 @media (max-width: 1200px) {
@@ -74,17 +68,16 @@
   }
 }
 
+.mobil{
+  max-width: 475px
+}
+
 @media (max-width: 576px) {
-  .title {
-    font-size: smaller;
+  .responsive-break{
+    display: block;
   }
-  
- 
-  .imager {
+    .imager {
     width: 20%;
-  }
-  .firstborder {
-    margin-left: 40;
   }
 }
 

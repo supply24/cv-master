@@ -8,8 +8,8 @@ const Home = () => {
 
  
   return (
-    <div>
-      <Col align="center" style={{ marginTop: 50, marginBottom: 50 }}>Welcome to My CV Applicationq5</Col>
+    <div >
+      <Col align="center" >Welcome to My CV Application</Col>
       <div class="btn-group-flex-wrap" role="group" aria-label="Responsive button group"
       >
 
@@ -17,7 +17,7 @@ const Home = () => {
         <Link to="/cvclean"><Button>Clean</Button></Link>
         <Link to="/cvself"><Button>Self</Button></Link>
         <Link to="/cvstorage"><Button>Storage</Button></Link>
-        <Link to="/cvkitchen"><Button>Kitchen
+        <Link to="/cvmobil"><Button variant="danger">Mobil
         </Button></Link>
         <Link to="/cvbud"><Button>Bud</Button></Link>
         <Link to="/pbclean"><Button>Personal Letter

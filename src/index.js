@@ -7,7 +7,7 @@ import Home from "./Home"
 import CVclean from './CVclean';
 import CVself from './CVself';
 import CVstorage from './CVstorage';
-import CVkitchen from './CVkitchen';
+import CVmobil from './CVmobil';
 import CVbud from "./CVbud";
 import PBclean from './PBclean';
 import CVselfeng from "./CVselfeng"
@@ -21,7 +21,7 @@ const router = createBrowserRouter(
       <Route path="/cvself" element={<CVself />} />
         <Route path="/cvselfeng" element={<CVselfeng />} />
       <Route path="/cvstorage" element={<CVstorage />} />
-      <Route path="/cvkitchen" element={<CVkitchen />} /><Route path="/cvbud" element={<CVbud />} />
+      <Route path="/cvmobil" element={<CVmobil />} /><Route path="/cvbud" element={<CVbud />} />
       <Route path="/pbclean" element={<PBclean />} />
 
     </Route>
